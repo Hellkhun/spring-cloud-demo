@@ -1,3 +1,6 @@
+spring:
+  application:
+    name: hello-sys
 eureka:
   client:
     service-url:
@@ -5,5 +8,7 @@ eureka:
   instance:
     prefer-ip-address: true
     
+server:
+  port: 12301    
 env: 
   dev    
