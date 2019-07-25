@@ -1,2 +1,9 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:12300/eureka/
+  instance:
+    prefer-ip-address: true
+    
 env: 
-  dev
+  dev    
